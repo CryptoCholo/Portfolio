@@ -7,10 +7,10 @@ function Header() {
         <div className="flex flex-col w-full bg-violet-100  text-blue-900 h-full">
             <main className="w-full h-full  px-16 pb-24 pt-10">
                 <header className="sticky flex top-0 items-center justify-between gap-80 h-20 w-full px-10 p-4">
-                    <div className="text-xl font-semibold py-5 px-8 rounded-xl bg-violet-50" style={{boxShadow: "-8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%)"}}>
+                    <div className="text-xl font-semibold w-1/3 py-5 px-10 rounded-xl bg-violet-50" style={{boxShadow: "-8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%)"}}>
                         MR CHOLO
                     </div>
-                    <ul className="flex gap-12 py-5 px-8 text-lg bg-violet-50 font-semibold bg-white cursor-pointer rounded-xl" style={{boxShadow: "-8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%)"}}>
+                    <ul className="flex justify-between gap-12 py-5 w-2/3 px-10 text-lg bg-violet-50 font-semibold cursor-pointer rounded-xl" style={{boxShadow: "-8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%)"}}>
                         <li>
                             Projects
                         </li>
