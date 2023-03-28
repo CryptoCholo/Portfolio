@@ -2,7 +2,7 @@ import Certs from "/certs.svg";
 
 export default function Credentials() {
     return (
-        <div className=" flex justify-around bg-gray-50 items-center gap-10 h-2/4 py-10 px-16 bg-violet-100">
+        <div className=" flex justify-around bg-violet-100 items-center gap-10 h-2/4 py-10 px-16">
             <div className="w-84 flex items-center gap-5 bg-violet-50 rounded-2xl py-6 px-10" style={{boxShadow: "-8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%)"}}>
                 <span>
                     <svg width="44" height="60" viewBox="0 0 44 60" fill="none" xmlns="http://www.w3.org/2000/svg">
