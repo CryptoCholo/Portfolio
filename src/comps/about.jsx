@@ -24,7 +24,7 @@ export default function About() {
                     <span><img className="w-5/6 h-5/6 rounded-full" src={git}/></span>
                     <span><img className="w-4/6 h-4/6 rounded-full" src={tailwind}/></span>
                     <span><img className="w-5/6 h-5/6 rounded-full" src={mongodb}/></span>
-                    <span><img className="w-5/6 h-5/6 rounded-full" src={typescript}/></span>
+                    {/* <span><img className="w-5/6 h-5/6 rounded-full" src={typescript}/></span> */}
                 </div>
             </div> 
         </div>

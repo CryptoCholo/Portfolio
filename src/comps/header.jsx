@@ -11,14 +11,15 @@ function Header() {
                         MR CHOLO
                     </div>
                     <ul className="flex justify-between gap-12 py-5 w-2/3 px-10 text-lg bg-violet-50 font-semibold cursor-pointer rounded-xl" style={{boxShadow: "-8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%)"}}>
-                        <li>
+                        <li className="p-3 hover:border-b-2 border-b-blue-900">
                             Projects
                         </li>
-                        <li>
+                        <li className="p-3 hover:border-b-2 border-b-blue-900">
                             Articles
                         </li>
-                        <li>
-                            Github
+                        <li className="p-3 hover:border-b-2 border-b-blue-900">
+                            <a href="https://github.com/CryptoCholo"> Github
+                            </a>
                         </li>
                     </ul>
                 </header>
