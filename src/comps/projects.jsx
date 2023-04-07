@@ -14,7 +14,7 @@ export default function Projects() {
             <div className="flex flex-col gap-5 bg-violet-50 items-start w-full py-10 px-10 rounded-2xl" style={{boxShadow: "-8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%)"}}>
                 <h2> A Blog</h2>
                 <p className="font-semibold">A Blog api and frontend</p>
-                <button className="w-1/3" style={{boxShadow: "-8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%)"}}>View</button>
+                <a className="w-1/3"href="https://e-dey-happen.onrender.com/"><button className="w-full" style={{boxShadow: "-8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%)"}}>View</button></a>
             </div>
             <div className="flex flex-col gap-5 bg-violet-50 items-start w-full py-10 px-10 rounded-2xl" style={{boxShadow: "-8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%)"}}>
                 <h2>Woyengi Skincare</h2>
